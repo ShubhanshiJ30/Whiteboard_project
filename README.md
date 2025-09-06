@@ -1,10 +1,10 @@
-# 🖍 Whiteboard Project
+# Whiteboard Project
 
 This is a full-stack whiteboard collaboration application with a backend built using Node.js and Express, and a separate frontend (inside frontend1.zip).
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 Whiteboard_project/
 ├── authMiddleware.js
@@ -34,33 +34,32 @@ Edit
 
 ```bash
 npm install
-🚀 Start the server
+Start the server
 bash
 Copy
 Edit
 node server.js
 ⚠ Make sure to configure your .env file with necessary values like MongoDB URI, JWT secret, etc.
 
-🔐 API Endpoints
-🧑 User Routes (/api/users)
+API Endpoints
+User Routes (/api/users)
 POST /register – Register a new user
 
 POST /login – Login a user
 
 GET /me – Get current user (with token)
-
-🎨 Canvas Routes (/api/canvas)
+ Canvas Routes (/api/canvas)
 POST /create – Create a canvas session
 
 GET /:id – Get canvas data by ID
 
 PUT /:id – Update canvas data
 
-🌐 Frontend
+Frontend
 The frontend is located in frontend1.zip.
 Please extract it and refer to the README inside for running instructions.
 
-🧪 Technologies Used
+ Technologies Used
 Backend: Node.js, Express
 
 Authentication: JWT, Middleware
